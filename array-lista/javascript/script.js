@@ -26,4 +26,16 @@ btn.addEventListener("click", function () {
   msg = `Ottimo, la tua ${peach} e' stata spostata in frigo :D`;
   console.log(fridge);
   console.log(msg);
+  let found = false;
+  for (let i = 0; i < fridge.length; i++) {
+    if (fridge[i] === "cocomero") {
+      found = true;
+    }
+  }
+  if (found) {
+    msg = "Il cocomero c'e'";
+  } else {
+    msg = "Il cocomero non c'e'";
+  }
+  console.log(msg);
 });
