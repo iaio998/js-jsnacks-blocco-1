@@ -10,5 +10,8 @@ let msg;
 const casualNumb = [];
 
 btn.addEventListener("click", function () {
-  let inputUser = inputEl.value;
+  let inputUser = parseInt(inputEl.value);
+  for (let i = 0; i < inputUser; i++) {
+    console.log(inputUser[i]);
+  }
 });
