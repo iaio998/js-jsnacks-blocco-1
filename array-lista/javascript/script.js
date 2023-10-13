@@ -19,3 +19,11 @@ const fridge = [
   "fragola",
 ];
 const peach = "pesca";
+console.log(fridge);
+
+btn.addEventListener("click", function () {
+  fridge.push(peach);
+  msg = `Ottimo, la tua ${peach} e' stata spostata in frigo :D`;
+  console.log(fridge);
+  console.log(msg);
+});
