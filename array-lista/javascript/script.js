@@ -6,3 +6,16 @@ const btn = document.querySelector("button");
 const inputEl = document.getElementById("data");
 const resultEl = document.querySelector(".alert");
 let msg;
+
+const fridge = [
+  "banana",
+  "mela",
+  "pera",
+  "ciliegia",
+  "arancia",
+  "mandarino",
+  "cocomero",
+  "limone",
+  "fragola",
+];
+const peach = "pesca";
